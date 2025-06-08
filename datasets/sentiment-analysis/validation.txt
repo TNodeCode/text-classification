@@ -1,0 +1,10 @@
+A masterpiece!	1
+Highly recommend this product.	1
+The team did an excellent job.	1
+I am extremely pleased.	1
+The results were outstanding.	1
+This is a terrible experience.	0
+The packaging was awful.	0
+I would not recommend it.	0
+The food was bad.	0
+Very disappointing.	0

@@ -1,0 +1,20 @@
+{"text": "I love this movie!", "label": 1}
+{"text": "The product is amazing.", "label": 1}
+{"text": "Great service and friendly staff.", "label": 1}
+{"text": "I am so happy with the purchase.", "label": 1}
+{"text": "The book is fantastic.", "label": 1}
+{"text": "I hate this!", "label": 0}
+{"text": "The experience was terrible.", "label": 0}
+{"text": "Such a waste of money.", "label": 0}
+{"text": "I will never buy this again.", "label": 0}
+{"text": "The quality is horrible.", "label": 0}
+{"text": "This is the best day ever!", "label": 1}
+{"text": "Amazing performance by the artist.", "label": 1}
+{"text": "I am extremely satisfied.", "label": 1}
+{"text": "The taste is incredible.", "label": 1}
+{"text": "Top-notch quality product.", "label": 1}
+{"text": "I am really disappointed.", "label": 0}
+{"text": "The movie was so boring.", "label": 0}
+{"text": "Worst customer service ever.", "label": 0}
+{"text": "Not worth the hype.", "label": 0}
+{"text": "I regret buying this.", "label": 0}

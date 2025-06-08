@@ -1,0 +1,19 @@
+[project]
+name = "huggingfacetutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "datasets>=3.6.0",
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.7",
+    "matplotlib>=3.10.3",
+    "numpy==2.2",
+    "scikit-learn>=1.7.0",
+    "transformers[torch]>=4.52.4",
+    "umap-learn>=0.5.7",
+]
+
+[tool.uv]
+package = true
