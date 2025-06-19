@@ -3,7 +3,7 @@ name = "huggingfacetutorial"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
     "datasets>=3.6.0",
     "evaluate>=0.4.3",
@@ -13,6 +13,7 @@ dependencies = [
     "matplotlib>=3.10.3",
     "nltk>=3.9.1",
     "numpy==2.2",
+    "onnx>=1.18.0",
     "onnxruntime>=1.22.0",
     "optuna>=4.4.0",
     "protobuf>=6.31.1",
@@ -21,6 +22,7 @@ dependencies = [
     "sentencepiece>=0.2.0",
     "seqeval>=1.2.2",
     "tiktoken>=0.9.0",
+    "torch>=2.6.0",
     "transformers[torch]>=4.52.4",
     "umap-learn>=0.5.7",
 ]
@@ -33,3 +35,16 @@ where = ["."]  # list of folders that contain the packages (["."] by default)
 include = ["src"]  # package names should match these glob patterns (["*"] by default)
 exclude = []  # exclude packages matching these glob patterns (empty by default)
 namespaces = false  # to disable scanning PEP 420 namespaces (true by default)
+
+[[tool.uv.index]]
+name = "pytorch-cu124"
+url = "https://download.pytorch.org/whl/cu124"
+explicit = true
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cu124", marker = "sys_platform == 'linux' or sys_platform == 'win32'" },
+]
+torchvision = [
+  { index = "pytorch-cu124", marker = "sys_platform == 'linux' or sys_platform == 'win32'" },
+]
